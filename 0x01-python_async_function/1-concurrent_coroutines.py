@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
+"""0-basic_async_syntax.py"""
 import asyncio
 import random
 from typing import List
 from heapq import nsmallest
 wait_random = __import__('0-basic_async_syntax').wait_random
-"""0-basic_async_syntax.py"""
 
 
 async def wait_n(n: int = 0, max_delay: int = 10) -> list:
