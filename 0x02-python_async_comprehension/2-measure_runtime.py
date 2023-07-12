@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """
 measure_runtime coroutine
 This will execute async_comprehension four times
